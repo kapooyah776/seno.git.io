@@ -1,0 +1,159 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Portofolio Ngasal</title>
+  </head>
+  <body class="font-nunito">
+    <!-- intro section-->
+    <div
+      class="h-1/2 lg:h-screen bg-gradient-to-t from-orange-200 relative overflow-hidden"
+    >
+      <!-- navbar -->
+      <nav class="w-full fixed top-0 bg-white z-10">
+        <div class="container mx-auto py-5 items-center flex justify-between">
+          <div class="flex items-center gap-2">
+            <img src="./img/imob.png" alt="" />
+            <span class="text-2xl font-bold text-orange-600">Halo dek.</span>
+          </div>
+          <ul
+            class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase"
+          >
+            <li class="hover:text-gray-500">
+              <a href="">Home</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="about">About Me</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="works">Works</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="socials">Socials</a>
+            </li>
+          </ul>
+          <img
+            src="./img/gegana.png"
+            class="hidden md:block w-10 cursor-pointer"
+          />
+          <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+          </div>
+          <ul
+            id="menu"
+            class="hidden bg-orange-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center"
+          >
+            <li>
+              <a id="hLink" href="">Home</a>
+            </li>
+            <li>
+              <a href="#about">About Me</a>
+            </li>
+            <li>
+              <a href="Works">Works</a>
+            </li>
+            <li>
+              <a href="https://taplink.cc/kapooyah776"">Socials</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- intro content -->
+      <!-- image -->
+      <img
+        class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover"
+        src="/img/Bagas.png"
+      />
+      <!-- circle -->
+      <div
+        class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-big h-big bg-orange-900 rounded-full -z-10"
+      ></div>
+      <!-- animated text -->
+      <div
+        class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-46 xl:text-7xl font-bold"
+      >
+        <span class="text-gray-600">Mahasiswa</span>
+        <p class="text-orange-500">Nganggur</p>
+      </div>
+      <!-- text -->
+      <div
+        class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg shadow-orange-500 absolute top-0 bottom-0 m-auto right-10 bg-white p-6 h-fit w-1/3"
+      >
+        <h1 class="text-4xl font-bold text-orange-900">
+          Salamualaikum! Saya Bagas
+        </h1>
+        <p class="text-gray-400">
+          Bagas juga dikenal sebagai seseorang yang pandai dalam banyak hal dan
+          selalu siap membantu orang lain dengan sukarela. Kombinasi dari
+          kepribadian yang ramah, keahlian yang luar biasa, dan sikap percaya
+          diri membuat Bagas menjadi sosok yang keren di mata banyak orang.
+        </p>
+        <a
+          class="bg-orange-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit"
+          href="#socials"
+          >Apa nih?</a
+        >
+      </div>
+    </div>
+    <!-- about me -->
+    <div id="about">
+      <div class="container mx-auto py-40 flex">
+        <!-- left -->
+        <div class="relative">
+          <img
+            class="h-1/4 absolute top-0 left-0 -z-10"
+            src="./img/dots.png"
+            alt=""
+          />
+          <div class="h-full rounded-full overflow-hidden">
+            <img src="./img/Bagas.png" alt="" />
+          </div>
+        </div>
+
+        <!-- right -->
+        <div class="my-auto flex-col gap-3">
+          <h1 class="text-orange-600">ABOUT ME</h1>
+          <h1 class="text-3xl font-medium">MAYA NETRA</h1>
+          <h1 class="text-3xl font-medium">YAMADIPATI</h1>
+          <p>
+            Sebagai seorang programmer baru, saya merasa sangat antusias dan
+            bersemangat dalam menjelajahi dunia pemrograman. Saya selalu
+            berusaha keras untuk mempelajari bahasa-bahasa pemrograman baru dan
+            menguji keterampilan saya melalui berbagai proyek. Meskipun masih
+            banyak hal yang harus dipelajari, saya tidak pernah kehilangan
+            semangat untuk terus mencari solusi atas setiap tantangan yang saya
+            hadapi.
+          </p>
+        </div>
+      </div>
+          <!-- works -->
+    <div id="works" class="py-40 dark:bg-yellow-600">
+        <div class="container mx-auto">
+          <!-- top -->
+          <div class="flex flex-col gap-3 items-center">
+            <h1 class="text-orange-600 font-bold">PORTFOLIO</h1>
+            <h1 class="text-3xl dark:text-white">Works & Projects</h1>
+            <p class="w-1/2 text-center text-gray-400">
+              Ada beberapa pekerjaan saya yang sebelumnya saya sudah kerjakan
+            </p>
+          </div>
+          <!-- bottom -->
+          <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+            <!-- card -->
+            <div
+              class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+            >
+              <img src="./img/porto.png" />
+            </div>
+  
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
